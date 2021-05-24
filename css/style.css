@@ -182,11 +182,15 @@ h2 {
 }
 
 /* footer*/
-.footer {
+.contacts {
   background-color: rgba(47, 48, 58, 1);
+}
+.studio {
+  color: rgba(255, 255, 255, 1);
 }
 
 .adress {
+  color: rgba(255, 255, 255, 1);
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -194,8 +198,18 @@ h2 {
   line-height: 1.5;
 }
 
-.media-listf :hover,
-.media-listf :focus {
+.mail-list :hover,
+.mail-list :focus {
+  color: rgba(33, 150, 243, 1);
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+}
+
+.tel-list :hover,
+.tel-list :focus {
   color: rgba(33, 150, 243, 1);
   position: absolute;
   width: 1600px;
