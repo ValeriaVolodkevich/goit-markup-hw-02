@@ -1,5 +1,5 @@
 :root {
-    --prety-color: rgba(33, 150, 243, 1);
+    --touch-color: rgba(33, 150, 243, 1);
     --while-color: rgba(255, 255, 255, 1);
     --main-font:'Raleway', sans-serif;
     --accent-font:'Roboto', sans-serif; 
@@ -15,5 +15,18 @@
     }
 
     /*убрать точки списка*/
-ul {list-style: none;
+    ul {list-style: none;
+    }
+
+ /*наследуй цвет шрифта от родителя*/
+ a {
+    color: inherit;
+    /*убрали нижнее подчеркивание*/
+    text-decoration: none;
+}
+
+.container {
+    width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
 }
