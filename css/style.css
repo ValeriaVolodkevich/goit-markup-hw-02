@@ -1,0 +1,19 @@
+:root {
+    --prety-color: rgba(33, 150, 243, 1);
+    --while-color: rgba(255, 255, 255, 1);
+    --main-font:'Raleway', sans-serif;
+    --accent-font:'Roboto', sans-serif; 
+}
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;} 
+    
+    body {
+        font-family: var(--main-font);
+        font-style: normal;        
+    }
+
+    /*убрать точки списка*/
+ul {list-style: none;
+}
