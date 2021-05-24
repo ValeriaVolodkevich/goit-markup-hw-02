@@ -184,7 +184,9 @@ h2 {
 /* footer*/
 .contacts {
   background-color: rgba(47, 48, 58, 1);
+  width: 1600px;
 }
+
 .studio {
   color: rgba(255, 255, 255, 1);
 }
