@@ -1,0 +1,220 @@
+:root {
+  --touch-color: rgba(33, 150, 243, 1);
+  --while-color: rgba(255, 255, 255, 1);
+  --main-font: "Roboto", sans-serif;
+  --accent-font: "Raleway", sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+  color: rgba(33, 33, 33, 1);
+}
+/*убрать точки списка*/
+ul {
+  list-style: none;
+}
+/*наследуй цвет шрифта от родителя*/
+a {
+  color: inherit;
+  /*убрали нижнее подчеркивание*/
+  text-decoration: none;
+}
+.container {
+  width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*шапка сайта*/
+.logo {
+  color: rgba(0, 0, 0, 1);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 5.576;
+}
+.web {
+  color: rgba(33, 150, 243, 1);
+}
+.navigation :hover,
+:focus {
+  color: rgba(33, 150, 243, 1);
+}
+.navigation {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+/*style index*/
+.hero {
+  background: #2f303a;
+}
+h1 {
+  color: rgba(255, 255, 255, 1);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 2.727;
+  text-transform: uppercase;
+}
+.service :hover,
+:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+/*button*/
+.service {
+  background: #2196f3;
+  color: rgba(255, 255, 255, 1);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+}
+h3 {
+  color: rgba(33, 33, 33, 1);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+p {
+  color: rgba(117, 117, 117, 1);
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+h2 {
+  color: rgba(33, 33, 33, 1);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.167;
+}
+.name-people {
+  color: rgba(33, 33, 33, 1);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.185;
+}
+.profession {
+  color: rgba(117, 117, 117, 1);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.185;
+}
+
+/*style portfolio*/
+.sign-link :active,
+.sign-link :hover {
+  background: rgba(33, 150, 243, 1);
+  filter: drop-shadow (0px 4px 4px);
+  color: rgba(0, 0, 0, 0.25);
+}
+.media-list :hover,
+.media-list :focus {
+  color: rgba(33, 150, 243, 1);
+}
+.media-list {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+/*button*/
+.sign-link :active,
+.sign-link :hover {
+  background: rgba(33, 150, 243, 1);
+  filter: drop-shadow (0px 4px 4px);
+  color: rgba(0, 0, 0, 0.25);
+}
+.sign-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+}
+.all {
+}
+.web-site {
+}
+.program {
+}
+.desing {
+}
+.marceting {
+}
+.portfolio-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+.portfolio-nav {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+}
+
+/* footer*/
+.footer {
+  background-color: rgba(47, 48, 58, 1);
+}
+
+.adress {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.media-listf :hover,
+.media-listf :focus {
+  color: rgba(33, 150, 243, 1);
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+}
+
+/*цвет основного фона
+rgba(47, 48, 58, 1)*/
+/*цвет героя
+background: rgba(255, 255, 255, 1);
+*/
+/* цвет футера
+background: rgba(47, 48, 58, 1);
+*/
+/*цвет текста
+background: rgba(33, 33, 33, 1);
+*/
+/*цвет кнопки
+background: rgba(33, 150, 243, 1);
+*/
