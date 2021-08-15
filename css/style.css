@@ -146,6 +146,7 @@ h1 {
 }
 /*button*/
 .sign-link:active,
+.sign-link:focus,
 .sign-link:hover {
   background: var(--touch-color);
   color: var(--while-color);
