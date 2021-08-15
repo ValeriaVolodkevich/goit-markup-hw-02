@@ -199,15 +199,13 @@ h1 {
   font-size: 14px;
   line-height: 1.714;
 }
-
+.adress-list:focus,
+.adress-list:hover,
 .mail-list:hover,
 .mail-list:focus,
 .tel-list:hover,
 .tel-list:focus {
   color: var(--touch-color);
-  height: 252px;
-  left: 0px;
-  top: 2097px;
 }
 
 /*цвет основного фона
